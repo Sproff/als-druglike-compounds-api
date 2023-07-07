@@ -1,8 +1,8 @@
-# ALS (Backend)
+#  Amyotrophic Lateral Sclerosis (ALS) - Backend
 
-> Genomic Data Visualization API is a backend repository for studying the genomics of breast cancer. Explore diverse genomic datasets to identify potential biomarkers and treatment targets. Regularly updated.
+> Amyotrophic Lateral Sclerosis repository is a specialized collection of data and resources specifically focused on Amyotrophic Lateral Sclerosis (ALS). It serves as a central repository or storage system for various types of information related to ALS.
 
-View the live project - [Click here]()
+View the live project - [Click here](https://als-druglike-compounds-api.onrender.com)
 
 View the frontend of this project - [Click here](https://github.com/Sproff/als-druglike-compounds)
 
@@ -17,6 +17,6 @@ This project will be updated on a regular basis. Feel free to make a Pull Reques
 
 ## License
 
-Copyright © 2023 | ALS. All rights reserved
+Copyright © 2023 | Amyotrophic Lateral Sclerosis. All rights reserved
 
-## Don't forget to drop a star and follow me:+1:
+## Don't forget to drop a star and follow me 👍
