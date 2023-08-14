@@ -2,6 +2,7 @@ import { Schema, model } from "mongoose";
 
 const alsCompoundSchema = new Schema(
   {
+    molecule: { type: String, required: true },
     canonicalSmiles: { type: String, required: true },
     esolClass: { type: String, required: true },
     bbbPermeant: { type: String, required: true },

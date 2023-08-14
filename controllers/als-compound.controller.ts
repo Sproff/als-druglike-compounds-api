@@ -47,16 +47,15 @@ const searchParticularAlsCompound = async (
     );
     const regexPattern = new RegExp(escapedFormatQuery, "i");
 
-    let molecularWeightValue: number | null = null;
     let molarRefractivityValue: number | null = null;
 
     if (!isNaN(parseFloat(formatQuery))) {
-      molecularWeightValue = parseFloat(formatQuery);
       molarRefractivityValue = parseFloat(formatQuery);
     }
 
     const alsCompounds = await AlsCompound.find({
       $or: [
+        { molecule: { $regex: regexPattern } },
         { canonicalSmiles: { $regex: regexPattern } },
         { esolClass: { $regex: regexPattern } },
         { molarRefractivity: molarRefractivityValue },
