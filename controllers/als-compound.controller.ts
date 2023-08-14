@@ -5,7 +5,7 @@ import AlsCompound from "../models/als-compound.model";
 const welcomePage = async (req: Request, res: Response, next: NextFunction) => {
   try {
     res.send(
-      "Hey buddy! Feel free to create stuffs with this API. Try / to get all ALS compounds.",
+      "Hey buddy! Feel free to create stuffs with this API. Try /api/als-compounds to get all ALS compounds.",
     );
   } catch (error) {
     next(error);
