@@ -7,6 +7,7 @@ import {
 } from "../controllers/als-compound.controller";
 
 const router = Router();
+
 router.route("/").get(welcomePage);
 router.route("/api/als-compounds").get(getAlsCompounds);
 router.route("/api/als-compounds/search").get(searchParticularAlsCompound);
