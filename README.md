@@ -2,9 +2,9 @@
 
 > Amyotrophic Lateral Sclerosis repository is a specialized collection of data and resources specifically focused on Amyotrophic Lateral Sclerosis (ALS). It serves as a central repository or storage system for various types of information related to ALS.
 
-View the live project - [Click here](https://otpd4als-api.onrender.com)
+View the live project - [Click here](https://otpd4als.vercel.app)
 
-View the frontend of this project - [Click here](https://github.com/Sproff/open-targets-potential-drugs-for-amyotrophic-lateral-sclerosis)
+View the frontend of this project - [Click here](https://github.com/Sproff/otpd4als)
 
 This project will be updated on a regular basis. Feel free to make a Pull Request(PR).
 
