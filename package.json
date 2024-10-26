@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "nodemon app.ts",
     "format": "eslint . --ext .ts --fix",
-    "build": "tsc",
+    "build": "tsc && cp -r public dist/public",
     "start": "node dist/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
