@@ -1,7 +1,7 @@
 {
   "name": "als-druglike-compound-api",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "dist/app.js",
   "author": "Sproff",
   "license": "MIT",
   "scripts": {
